@@ -1,9 +1,10 @@
 import { GlobalStyle } from "./styles/global";
+import { Header } from "./compoents/Header";
 export function App() {
   return (
-    <div className="App">
-      <h1>HelloWord</h1>
+    <>
+      <Header />
       <GlobalStyle />
-    </div>
+    </>
   );
 }
